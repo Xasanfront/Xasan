@@ -22,10 +22,7 @@
                 <span class="material-icons">visibility</span>
                 <span class="text">About</span>
             </router-link>
-            <router-link to="/ask" class="button">
-                <span class="material-icons">group</span>
-                <span class="text">Ask</span>
-            </router-link>
+          
             <router-link to="/call" class="button">
                 <span class="material-icons">call</span>
                 <span class="text">Contact</span>
@@ -174,4 +171,6 @@ aside {
         z-index: 99;
     }
 }
+
+
 </style>

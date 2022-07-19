@@ -62,8 +62,8 @@ export default {
 }
 
 .text-block {
-        margin: 3rem;
-    
+    text-align: center;
+    padding: 35px 0;    
     .auf {
         font: sans-serif;
         color: #000;
@@ -132,7 +132,17 @@ export default {
 
 @media screen and (max-width: 768px) {
     .contact :is(input, textarea) {
-        width: 70%;
+        width: 100%;
+    }
+    .contact .wrapper .left{
+        padding-left: 15%;
+        padding-bottom: 15px;
+    }
+    
+}
+@media screen and (max-width: 425px) {
+    .container{
+        max-width: 375px;
     }
 }
 </style>

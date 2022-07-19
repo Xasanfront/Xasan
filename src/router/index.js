@@ -20,11 +20,7 @@ const router = createRouter({
             path: '/Call',
             component: () => import('../views/Call.vue')
         },
-        {
-            path: '/Ask',
-            component: () => import('../views/Ask.vue')
-        },
-
+        
     ],
 })
 

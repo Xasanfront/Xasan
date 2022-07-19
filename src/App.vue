@@ -50,4 +50,20 @@ button {
     }
   }
 }
+
+.container {
+  margin: auto;
+  @media screen and (max-width: 768px) {
+    max-width: 425px;
+  }
+  @media screen and (max-width: 425px) {
+    max-width: 375px;
+  }
+  @media screen and (max-width: 375px) {
+    max-width: 320px;
+  }
+  @media screen and (max-width: 320px) {
+    width: 100%;
+  }
+}
 </style>

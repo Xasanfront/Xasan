@@ -7,8 +7,13 @@
 <script src="">
 
 </script>
-<style lang="scss">
+<style lang="scss" scoped>
 .homepage {
   background: url('../assets/back.webp') no-repeat center /cover;
+}
+@media screen and (max-width:768px) {
+ .homepage{
+  height: 100vh;
+ }   
 }
 </style>
