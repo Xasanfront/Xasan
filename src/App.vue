@@ -56,7 +56,7 @@ button {
   @media screen and (max-width: 768px) {
     max-width: 425px;
   }
-  @media screen and (max-width: 425px) {
+  @media screen and (max-width: 426px) {
     max-width: 375px;
   }
   @media screen and (max-width: 375px) {

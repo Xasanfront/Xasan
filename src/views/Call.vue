@@ -140,7 +140,7 @@ export default {
     }
     
 }
-@media screen and (max-width: 425px) {
+@media screen and (max-width: 426px) {
     .container{
         max-width: 375px;
     }
