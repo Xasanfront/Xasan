@@ -53,17 +53,26 @@ button {
 
 .container {
   margin: auto;
-  @media screen and (max-width: 768px) {
-    max-width: 425px;
+}
+
+@media screen and (max-width: 768px) {
+    .container {
+      max-width: 425px;
+    }
   }
-  @media screen and (max-width: 426px) {
-    max-width: 375px;
+  @media screen and (max-width: 425px) {
+    .container {
+      max-width: 375px;
+    }
   }
   @media screen and (max-width: 375px) {
-    max-width: 320px;
+    .container {
+      max-width: 320px;
+    }
   }
   @media screen and (max-width: 320px) {
-    width: 100%;
+    .container {
+      width: 100%;
+    }
   }
-}
 </style>

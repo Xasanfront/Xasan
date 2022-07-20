@@ -145,4 +145,9 @@ export default {
         max-width: 375px;
     }
 }
+@media screen and (max-width:376px) {
+    .container{
+        max-width: 320px;
+    }
+}
 </style>

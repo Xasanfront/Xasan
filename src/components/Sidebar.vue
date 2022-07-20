@@ -57,7 +57,7 @@ aside {
 
     @media (max-width:768px) {
         position: fixed;
-        z-index: 99;
+        z-index: 999;
     }
 
     .logo {
