@@ -89,7 +89,7 @@ export default {
     justify-content: space-evenly;
     align-items: center;
     position: relative;
-    z-index: 99;
+    z-index: 9;
 }
 
 .contact input {

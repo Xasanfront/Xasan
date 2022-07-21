@@ -142,7 +142,7 @@
   }
 
   .left {
-    margin-top: 15px;
+    margin-top: 10px;
 
     .main-text {
       font-size: 35px;
